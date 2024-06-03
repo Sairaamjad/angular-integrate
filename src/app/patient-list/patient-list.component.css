@@ -1,0 +1,55 @@
+:host {
+    display: block;
+    padding: 20px;
+  }
+  
+  .mat-elevation-z8 {
+    padding: 20px;
+  }
+  
+  .ngx-datatable.material {
+    min-height: 350px;
+    border-collapse: collapse; /* Collapse borders to appear like a single table */
+    width: 100%; /* Make the table fill its container */
+  }
+  
+  .ngx-datatable.material .datatable-header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .ngx-datatable.material .datatable-header-cell {
+    font-weight: bold;
+    padding: 12px; /* Add padding to header cells */
+  }
+  
+  .ngx-datatable.material .datatable-row-odd {
+    background-color: #f2f2f2;
+  }
+  
+  .ngx-datatable.material .datatable-row-even {
+    background-color: #fff;
+  }
+  
+  .ngx-datatable.material .datatable-row-hover .datatable-row-group,
+  .ngx-datatable.material .datatable-row-hover {
+    background-color: #ddd;
+  }
+  
+  .ngx-datatable.material .datatable-progress {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .ngx-datatable.material .datatable-progress .mat-progress-bar-fill::after {
+    background-color: #1976d2;
+  }
+  
+  .ngx-datatable.material .datatable-body-cell {
+    padding: 12px; /* Add padding to body cells */
+    border-bottom: 1px solid #ddd; /* Add border between rows */
+  }
+  
+  .ngx-datatable.material .datatable-body-row:last-child .datatable-body-cell {
+    border-bottom: none; /* Remove border for the last row */
+  }
+  
